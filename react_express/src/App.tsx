@@ -1,15 +1,22 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import LearnProps from './learn/props/LearnProps'
-import Card from './learn/props/Card'
-import LearnIf from './learn/LearnIF/LearnIf'
-import Learnul from './learn/learnUl/Learnul'
+import LearnProps from './learn/jsx/props/LearnProps'
+import Card from './learn/jsx/props/Card'
+import LearnIf from './learn/jsx/LearnIF/LearnIf'
+import Learnul from './learn/jsx/learnUl/Learnul'
 import ClickEvent from './learn/响应系统/clickEvent'
 import LearnState from './learn/响应系统/LearnState'
 import Snapshot from './learn/响应系统/Snapshot'
 import UpdateQ from './learn/响应系统/UpdateQ'
 import Obj from './learn/响应系统/Obj'
+import SharingState from './learn/状态管理/SharingState'
+import Presering from './learn/状态管理/presering'
+import Reducer from './learn/状态管理/reducer'
+import MyContext from './learn/状态管理/myContext'
+import ExtendReducerContext from './learn/状态管理/extendReducerContext'
+import Referencing from './learn/Escape/Referencing'
+import RefDom from './learn/Escape/RefDom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,7 +38,14 @@ function App() {
       {/* <LearnState /> */}
       {/* <Snapshot /> */}
       {/* <UpdateQ /> */}
-      <Obj />
+      {/* <Obj /> */}
+      {/* <SharingState /> */}
+      {/* <Presering /> */}
+      {/* <Reducer /> */}
+      {/* <MyContext /> */}
+      {/* <ExtendReducerContext /> */}
+      {/* <Referencing /> */}
+      <RefDom />
     </div>
   )
 }
